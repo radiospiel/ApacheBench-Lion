@@ -1,0 +1,10 @@
+ApacheBench Lion
+================
+
+On some (or all) OSX Lion machines the apache bench utility `ab` that comes bundled with the operating system is broken.
+This repository contains a fixed version of the ab utility that comes with he apache webserver.
+
+It is built along the lines of https://gist.github.com/1430691 against Apache 2.3.16 beta.
+
+To install, just copy the file `ab` into `/usr/local/bin`.
+
